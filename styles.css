@@ -49,24 +49,25 @@ body {
     z-index: 1;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 20px 20px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 /* ========== 标题区域 ========== */
 .header {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
+    margin-top: 20px;
     animation: fadeInDown 1s ease-out;
 }
 
 .main-title {
-    font-size: clamp(2.5rem, 8vw, 5rem);
+    font-size: clamp(2rem, 6vw, 3.5rem);
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     background: var(--gradient-gold);
     -webkit-background-clip: text;
     background-clip: text;
@@ -110,14 +111,14 @@ body {
 
 /* ========== 视频区域 ========== */
 .video-section {
-    margin: 40px 0;
+    margin: 20px 0;
     animation: fadeInUp 1.2s ease-out;
 }
 
 .section-title {
-    font-size: clamp(1.8rem, 5vw, 3rem);
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     color: var(--primary-gold);
     letter-spacing: 0.15em;
     position: relative;
